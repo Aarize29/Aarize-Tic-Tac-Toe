@@ -69,3 +69,9 @@ reset.addEventListener('click',()=>{
     document.getElementsByClassName("info")[0].innerText= "Turn for " +turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width ="0px"
 })
+function DarkMode()
+{
+    const e=document.getElementById("but")
+    document.body.style.backgroundColor="aqua"
+    e.innerText="Dark mode is enabled"
+}
